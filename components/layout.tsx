@@ -10,7 +10,7 @@ export const Layout = ({ children, ...props }: Props) => {
   return (
     <>
       <Header />
-      <main {...props}>{children}</main>
+      <main className='box-border container ml-3'  {...props}>{children}</main>
       <Footer />
     </>
   );

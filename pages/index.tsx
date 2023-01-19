@@ -1,6 +1,12 @@
 import type { NextPage } from 'next';
 import { Layout } from '../components/layout';
 import Head from 'next/head';
+import Like from '../components/atom/icon/Like';
+import Person from '../components/atom/icon/Person';
+import Next from '../components/atom/button/Next';
+import Atom from '../components/Atom';
+import AtomInput from '../components/AtomInput';
+
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +17,12 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
-      </Head>      
+      </Head> 
+          <Like/>     
+          <Person/>
+          <Next/>
+          <Atom/>
+          <AtomInput/>
     </Layout>
   );
 };
