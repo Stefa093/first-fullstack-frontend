@@ -24,11 +24,10 @@
   .h500-medium-14px {
     @apply font-sans not-italic font-medium text-sm leading-4;
   }
-  .btn-like{
-    @apply bg-[#D9D9D9] m-0 border-[#ffffff] w-8 h-8 border-2 rounded-full text-xl
+  .btn-like {
+    @apply bg-[#D9D9D9] m-0 border-[#ffffff] w-8 h-8 border-2 rounded-full text-xl;
   }
-  .btn-like.isLike{
-    @apply bg-primary-pink m-0 border-[#ffffff] w-8 h-8 border-2 rounded-full text-xl
+  .btn-like.isLike {
+    @apply bg-primary-pink m-0 border-[#ffffff] w-8 h-8 border-2 rounded-full text-xl;
   }
 }
-
