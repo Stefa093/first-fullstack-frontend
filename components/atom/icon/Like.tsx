@@ -1,7 +1,17 @@
+import { useState } from "react";
+
 const Like = () => {
+
+const [isLike, setisLike] = useState(false)
+
+const buttonClassName = isLike ? 'btn-like isLike' : 'btn-like'
+const handleClick = () =>{
+  setisLike(!isLike)
+}
+
   return (
     <div className="flex">
-      <button className="bg-[#D9D9D9] m-0 border-[#ffffff] w-8 h-8 border-2 rounded-full text-xl">
+      <button className={buttonClassName} onClick={handleClick}>
         <i className="bx bx-heart inset-1 text-center py-1 text-[#ffffff]"></i>
       </button>
     </div>
