@@ -16,7 +16,7 @@
     @apply font-sans not-italic font-normal text-base leading-2;
   }
   .h600-medium-20px {
-    @apply font-sans not-italic font-semibold text-xl leading-1;
+    @apply font-sans not-italic font-semibold text-3xl leading-1;
   }
   .h400-medium-15px {
     @apply font-sans not-italic font-normal text-base leading-15;

@@ -1,3 +1,8 @@
-export const Footer = () => {
-  return <h1>footer</h1>;
-};
+const Footer = () => {
+  return (
+    <div className="">Footer
+    </div>
+  )
+}
+
+export default Footer
