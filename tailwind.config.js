@@ -31,7 +31,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'login-img': "url('../public/img/Rectangle 133.png')",        
+        'sign-up-img': "url('../public/img/Rectangle.png')",        
         'login-frame-img': "url('../public/img/Frame.png')",        
+        'login-group-img': "url('../public/img/Group.png')",        
+        'login-group1-img': "url('../public/img/Group 1.png')",        
       },
       lineHeight: {
         1: '1.4375rem',

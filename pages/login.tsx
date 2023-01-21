@@ -3,8 +3,13 @@ export default function Login() {
     <>
     <div className="flex h-screen w-full">    
       <div className=" h-28 w-320 mx-auto my-auto grid grid-cols-1 lg:grid-cols-2">
-        <div className=" hidden lg:block bg-login-img  bg-no-repeat h-28 w-160" ></div>
-        <div className="h-28 w-160  flex mx-auto flex-col">
+        <div className=" hidden lg:flex bg-login-img bg-no-repeat h-28 w-160  flex-col items-center justify-center" >
+          <div className="flex ml-20 mt-24 bg-center">
+          <div className="w-64 h-14 bg-login-group-img bg-no-repeat z-10 bg-cover"></div>
+          <div className="w-56 h-11 mt-5 bg-login-group1-img bg-no-repeat z-10"></div>
+          </div>
+        </div>
+        <div className="h-28 w-160 flex mx-auto flex-col">
           <div className="bg-login-frame-img bg-no-repeat h-40 w-48 mt-28 mx-auto mb-14">
             </div>
             <div className=" flex flex-col mx-14 mb-4">
