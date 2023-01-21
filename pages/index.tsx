@@ -5,7 +5,6 @@ import Like from '../components/atom/icon/Like';
 import Person from '../components/atom/icon/Person';
 import Next from '../components/atom/button/Next';
 import Atom from '../components/Atom';
-import AtomInput from '../components/AtomInput';
 import FormSearch from '../components/atom/FormSearch';
 
 
@@ -19,12 +18,13 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
       </Head> 
+      <div className='flex flex-col gap-28 items-center my-20'>
           <Like/>     
           <Person/>
           <Next/>
-          <Atom/>
-          <AtomInput/>
+          <Atom/>         
           <FormSearch/>
+      </div>
     </Layout>
   );
 };

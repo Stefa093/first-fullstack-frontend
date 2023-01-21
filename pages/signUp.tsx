@@ -18,17 +18,17 @@ export default function SignUp() {
             </div>
             <div className="flex flex-col mx-14 mb-4">
             <h3 className="font-semibold">Email</h3>
-            <input className="rounded-md border outline-none border-[#475E6B] p-2.5" type="mail" placeholder="type@gmail.com" />
+            <input className="rounded-md border-2 outline-none border-[#475E6B] p-2.5" type="mail" placeholder="type@gmail.com" />
             <div className="flex gap-48">
             <h3 className="font-semibold">First Name</h3>
             <h3 className="font-semibold">Last Name</h3>
             </div>
             <div className="flex gap-3">
-            <input className="rounded-md border w-80 outline-none border-[#475E6B] p-2.5" type="mail" placeholder="First Name" />
-            <input className="rounded-md border w-80 outline-none border-[#475E6B] p-2.5" type="mail" placeholder="Last Name" />
+            <input className="rounded-md border-2 w-80 outline-none border-[#475E6B] p-2.5" type="mail" placeholder="First Name" />
+            <input className="rounded-md border-2 w-80 outline-none border-[#475E6B] p-2.5" type="mail" placeholder="Last Name" />
             </div>
             <h3 className="font-semibold">Password</h3>
-            <input className="rounded-md border outline-none border-[#475E6B] p-2.5" type="password" placeholder="**********" />
+            <input className="rounded-md border-2 outline-none border-[#475E6B] p-2.5" type="password" placeholder="**********" />
             </div>
             <div className="flex flex-col mx-14 mb-4 gap-4">
             <button className="bg-primary-blue text-[#ffffff] text-base font-semibold leading-5 rounded-md p-3">Create Account</button>
