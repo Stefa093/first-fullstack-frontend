@@ -8,13 +8,13 @@ const Header = () => {
       <FormSearch/>
       <div className="flex gap-5">
         <AtomInput
-      placeHolder='Marcas y tiendas'
+      placeholder='Marcas y tiendas'
         />
         <AtomInput 
-      placeHolder='Artistas y conciertos'
+      placeholder='Artistas y conciertos'
         />
         <AtomInput
-      placeHolder='Torneos'
+      placeholder='Torneos'
         />
       </div>
     </div>
